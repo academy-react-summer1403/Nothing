@@ -1,8 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import ForgetPass from "../Screen/ForgetPass/ForgetPass";
-import PageEnation from "../components/PageEnation/PageEnation";
 import NotFound from "../Screen/NotFound/NotFound";
+import Register from "../Screen/Register/Register";
 
 const Router = () => {
   const routes = createBrowserRouter([
@@ -19,6 +19,10 @@ const Router = () => {
     {
       path: "/forget-pass",
       element: <ForgetPass />,
+    },
+    {
+      path: "/register",
+      element: <Register />,
     },
   ]);
 
