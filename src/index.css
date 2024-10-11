@@ -6,4 +6,10 @@ body{
   padding: 0;
   margin: 0;
   direction: rtl;
+  font-family: bnaznin;
+}
+
+@font-face {
+  font-family: bnaznin;
+  src: url("./assets/B-NAZANIN.TTF");
 }

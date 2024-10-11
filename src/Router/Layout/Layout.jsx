@@ -4,7 +4,7 @@ import Footer from '../../components/Footer/Footer'
 
 const Layout = () => {
   return (
-    <div className='dark:bg-[#241e53] transition-colors duration-300'>
+    <div>
         <Header/>
         <Outlet/>
         <Footer/>
