@@ -9,12 +9,7 @@ const Router = () => {
     {
       path: "/",
       element: <Layout />,
-      children: [
-        {
-          path: "*",
-          element: <NotFound />,
-        },
-      ],
+      // children: [],
     },
     {
       path: "/forget-pass",
@@ -23,6 +18,10 @@ const Router = () => {
     {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "*",
+      element: <NotFound />,
     },
   ]);
 
